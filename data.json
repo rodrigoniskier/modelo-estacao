@@ -1,0 +1,262 @@
+{
+  "models": [
+    {
+      "type": "model",
+      "question": "1. Como você enxerga a relação principal entre a fé cristã e o trabalho secular (artes, negócios, política)?",
+      "options": [
+        { "text": "Devemos trabalhar a partir de uma cosmovisão cristã distinta para redimir e transformar essas esferas para a glória de Deus.", "value": "T" },
+        { "text": "O trabalho é uma forma de promover a justiça social, o bem comum e nos unirmos ao que Deus já está fazendo de bom no mundo.", "value": "R" },
+        { "text": "O mundo secular é frequentemente dominado pelas lógicas do 'império'. Nossa verdadeira vocação é servir uns aos outros na comunidade da igreja.", "value": "C" },
+        { "text": "É uma área de graça comum. Devemos trabalhar com excelência e honestidade ao lado de não cristãos, sem tentar criar uma 'versão cristã' das coisas.", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "2. Qual é, na sua visão, o maior perigo ou problema da igreja atual?",
+      "options": [
+        { "text": "A privatização da fé (dualismo) e a falha em influenciar a sociedade com valores cristãos de forma pública.", "value": "T" },
+        { "text": "O isolamento em subculturas religiosas, gerando falta de relevância e apatia em relação às dores da cidade.", "value": "R" },
+        { "text": "A busca por poder (Constantinianismo), nacionalismo e a acomodação aos valores consumistas e bélicos do mundo.", "value": "C" },
+        { "text": "A confusão entre a missão da igreja institucional e o ativismo político/social, o que ofusca a pregação do evangelho.", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "3. Como a igreja deve interagir com a cultura moderna e suas tendências acadêmicas/artísticas?",
+      "options": [
+        { "text": "Devemos engajá-la intelectualmente, expondo seus ídolos e buscando moldá-la ativamente.", "value": "T" },
+        { "text": "Devemos reconhecer que há muita bondade nela (graça comum) e traduzir nossa mensagem para dialogar com seus anseios.", "value": "R" },
+        { "text": "Devemos ser céticos. A cultura é fundamentalmente idólatra e violenta; precisamos manter uma distância crítica.", "value": "C" },
+        { "text": "Podemos usufruir dos bons frutos da cultura civil, mas a igreja deve focar sua energia apenas nos meios de graça (Palavra e Sacramentos).", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "4. Qual é a missão primária da igreja institucional (reunida aos domingos)?",
+      "options": [
+        { "text": "Equipar e enviar os santos para que eles transformem a sociedade, o mercado de trabalho e a cultura.", "value": "T" },
+        { "text": "Servir a cidade, lutar ativamente pelos marginalizados e demonstrar o amor prático e libertador de Deus.", "value": "R" },
+        { "text": "Ser uma 'contracultura' radical, uma comunidade alternativa de paz, partilha e ética que serve de sinal visível do Reino.", "value": "C" },
+        { "text": "Pregar a Palavra fielmente, administrar os sacramentos e disciplinar os crentes para a vida eterna.", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "5. Se um cristão maduro se candidata a um alto cargo político, o que você espera dele?",
+      "options": [
+        { "text": "Que ele aplique princípios bíblicos e sua cosmovisão cristã para legislar e reformar a sociedade moralmente.", "value": "T" },
+        { "text": "Que ele use sua influência para lutar pelos direitos humanos, justiça social e pelo fim da opressão sistêmica.", "value": "R" },
+        { "text": "Tenho grande receio. O poder político quase sempre corrompe; a verdadeira mudança vem das margens e não da espada do Estado.", "value": "C" },
+        { "text": "Que ele governe com prudência e lei natural, focado na manutenção do bem-estar civil de todos, sem tentar impor uma teologia de Estado.", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "6. Na prática, como o conceito bíblico de Justiça Social deve ser vivido?",
+      "options": [
+        { "text": "É uma questão estrutural; cristãos devem criar instituições e leis que reflitam a retidão de Deus na economia e na justiça civil.", "value": "T" },
+        { "text": "É central para o evangelho; a igreja deve fazer parcerias públicas com ongs e ativistas para erradicar a pobreza urbana.", "value": "R" },
+        { "text": "Começa internamente; a igreja não deve ter necessitados em seu meio, compartilhando bens radicalmente como na igreja primitiva.", "value": "C" },
+        { "text": "É um dever individual do cristão atuar com justiça em sua profissão, mas a igreja local como instituição deve focar no alívio direto aos seus membros.", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "7. Qual é a forma mais eficaz de apologética e evangelismo na atualidade?",
+      "options": [
+        { "text": "A apologética intelectual, desconstruindo cosmovisões seculares e mostrando que só o cristianismo faz sentido da realidade.", "value": "T" },
+        { "text": "Responder às necessidades sentidas das pessoas e mostrar como a fé é psicologicamente e socialmente curadora.", "value": "R" },
+        { "text": "Nossa vida em comunidade. Quando o mundo vir como nós amamos uns aos outros e aos inimigos, eles serão atraídos.", "value": "C" },
+        { "text": "A pregação expositiva clara da lei e do evangelho, confiando que o Espírito Santo fará a obra através da Palavra.", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "8. O que você acha de instituições seculares, empresas e o mercado corporativo?",
+      "options": [
+        { "text": "Estão caídos e cheios de ídolos estruturais, precisamos de líderes cristãos para redimi-los.", "value": "T" },
+        { "text": "Têm um grande potencial para o bem. Devemos nos aliar a eles em pautas comuns de florescimento humano.", "value": "R" },
+        { "text": "Devemos vê-los com profunda suspeita, pois geralmente operam baseados na ganância, no poder e na opressão.", "value": "C" },
+        { "text": "São dádivas da providência de Deus (mandato cultural) para preservar o mundo, operando bem por meio da racionalidade natural.", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "9. Como você enxerga a questão do 'Poder' na sociedade?",
+      "options": [
+        { "text": "O poder não é mau em si; cristãos devem buscar posições de influência para liderar a cultura na direção certa.", "value": "T" },
+        { "text": "O poder deve ser descentralizado e usado primordialmente para empoderar os que não têm voz na sociedade.", "value": "R" },
+        { "text": "A cruz mostra que vencemos abrindo mão do poder mundano. O caminho cristão é a submissão, a paz e o serviço não coercitivo.", "value": "C" },
+        { "text": "O poder temporal pertence ao Estado para conter o mal (a espada), mas a igreja deve usar apenas as chaves do Reino (poder espiritual).", "value": "D" }
+      ]
+    },
+    {
+      "type": "model",
+      "question": "10. Como a escatologia (o futuro prometido por Deus) afeta o presente?",
+      "options": [
+        { "text": "A nova criação já começou; somos agentes de transformação cultural preparando a terra para o retorno do Rei.", "value": "T" },
+        { "text": "Deus já está curando o mundo; onde vemos reconciliação e justiça acontecendo fora da igreja, o Reino está se manifestando.", "value": "R" },
+        { "text": "O Reino futuro é uma realidade presente exclusivamente na comunhão da igreja, que é a embaixada do futuro em um mundo caído.", "value": "C" },
+        { "text": "Há duas eras sobrepostas. O Reino de Cristo é espiritual hoje, enquanto o mundo físico presente é passageiro e aguarda sua renovação final.", "value": "D" }
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "type": "season",
+      "question": "11. Qual é a reação predominante da cultura e das instituições locais ao cristianismo ortodoxo?",
+      "options": [
+        { "text": "Forte hostilidade, ceticismo profundo e ataques morais por nossas posturas (Pós-cristão).", "value": "I" },
+        { "text": "Há uma oposição pagã, mas simultaneamente há muita curiosidade e interesse.", "value": "P" },
+        { "text": "Ainda há alto respeito institucional. Os valores cristãos são basicamente o senso comum moral da sociedade.", "value": "V" },
+        { "text": "Indiferença. A fé não é atacada ativamente, mas é vista como uma opção pessoal antiquada e irrelevante.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "12. Como você descreveria o fluxo de conversões e evangelismo na sua igreja local?",
+      "options": [
+        { "text": "Solo muito duro e congelado. As conversões são raras, exigem anos de paciência e muito discipulado.", "value": "I" },
+        { "text": "Altamente dinâmico. Nossa ousadia sob pressão está atraindo um número surpreendente de não religiosos.", "value": "P" },
+        { "text": "Estável. A maioria dos nossos 'novos membros' já tinha algum background cristão ou vem de outras igrejas.", "value": "V" },
+        { "text": "Requer muita inovação metodológica. Só colhemos frutos se desconstruirmos nossos jargões e respondermos às ansiedades atuais.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "13. Em qual destes cenários pastorais a sua liderança precisa gastar mais energia atualmente?",
+      "options": [
+        { "text": "Sobrevivência espiritual: blindar os membros contra o desespero e a forte pressão cultural.", "value": "I" },
+        { "text": "Treinamento básico: equipar um grande fluxo de novos convertidos para viverem a fé na esfera pública.", "value": "P" },
+        { "text": "Despertamento: combater o nominalismo, a complacência, a frieza e o 'consumismo gospel'.", "value": "V" },
+        { "text": "Apologética e tradução cultural: buscar novas linguagens para tornar o evangelho plausível de novo.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "14. Se a sua igreja local desaparecesse da cidade amanhã, o que os não cristãos pensariam?",
+      "options": [
+        { "text": "Comemorariam ou dariam de ombros, pois somos vistos como fanáticos, hipócritas ou perigosos.", "value": "I" },
+        { "text": "Sentiriam um vácuo estranho, pois nosso contraste ético gera fascínio e incômodo simultâneos.", "value": "P" },
+        { "text": "Sentiriam grande falta, pois somos uma instituição pilar, mantenedora da ordem e dos bons costumes locais.", "value": "V" },
+        { "text": "Sentiriam falta dos nossos projetos sociais e de caridade, mas achariam bom o 'fim da religião organizada'.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "15. Qual termo criado por Tim Keller melhor define o status atual da sua igreja na sociedade local?",
+      "options": [
+        { "text": "Igreja Estranha (Exilada, empurrada para fora e marginalizada severamente).", "value": "I" },
+        { "text": "Igreja em Ascensão (A cultura é secular, mas a igreja está penetrando vigorosamente).", "value": "P" },
+        { "text": "Igreja Aliada (A cultura abraça ou respeita o cristianismo; estamos no centro).", "value": "V" },
+        { "text": "Igreja Marginalizada (Estávamos no centro, mas fomos progressivamente deixados de lado).", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "16. Como está o 'senso comum' sobre a moralidade sexual, família e ética na sua cidade?",
+      "options": [
+        { "text": "Completamente avesso à visão cristã. Nossa ética é considerada não apenas tola, mas prejudicial e odiosa.", "value": "I" },
+        { "text": "Muito confuso e pagão, mas o estilo de vida familiar dos cristãos atrai aqueles que estão cansados do caos secular.", "value": "P" },
+        { "text": "Em grande parte alinhado com a tradição judaico-cristã; o casamento tradicional e a ética cristã ainda são a regra.", "value": "V" },
+        { "text": "Em transição rápida. O mundo está privatizando a moralidade e os membros da igreja lutam com a desconstrução interna.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "17. Como os cristãos em sua igreja tendem a se sentir em seus ambientes de trabalho ou escola?",
+      "options": [
+        { "text": "Amedrontados e silenciados. Assumir a fé publicamente quase sempre resulta em punição social ou demissão.", "value": "I" },
+        { "text": "Desafiados, mas encorajados. Ao assumir posições cristãs, encontram debates acalorados, mas também respeito de alguns.", "value": "P" },
+        { "text": "Completamente à vontade. A maioria dos chefes e colegas são cristãos nominais ou respeitam a fé sem problemas.", "value": "V" },
+        { "text": "Tímidos. Sentem vergonha dos esterótipos cristãos na mídia e frequentemente tentam separar sua fé do trabalho.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "18. Como as pautas públicas (leis, prefeitura, mídia local) lidam com os valores da igreja?",
+      "options": [
+        { "text": "A mídia local zomba ativamente dos evangélicos/católicos, e as leis buscam remover as isenções e liberdades da igreja.", "value": "I" },
+        { "text": "O Estado é inteiramente laico, mas a igreja cresce tanto que os políticos e a mídia não conseguem nos ignorar.", "value": "P" },
+        { "text": "Autoridades públicas visitam nossos cultos, pastores são chamados para orar em eventos oficiais, há apoio financeiro.", "value": "V" },
+        { "text": "A mídia só nos cita em escândalos e a política nos vê apenas como um 'curral eleitoral' útil, sem respeito real.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "19. Qual a maior tentação ou risco moral interno enfrentado pelos membros da sua igreja?",
+      "options": [
+        { "text": "Ressentimento e raiva cultural; o desejo de 'lutar e destruir' os inimigos seculares que estão nos perseguindo.", "value": "I" },
+        { "text": "Orgulho espiritual e falta de enraizamento. O entusiasmo do crescimento rápido esconde a falta de discipulado real.", "value": "P" },
+        { "text": "Hipocrisia e moralismo superficial. O cristianismo virou um clube social focado apenas no comportamento externo.", "value": "V" },
+        { "text": "Sincretismo silencioso. Para não parecerem 'fanáticos', muitos estão adotando pautas seculares e diluindo a Bíblia.", "value": "O" }
+      ]
+    },
+    {
+      "type": "season",
+      "question": "20. Se a sua igreja adotar uma postura de total confronto com a cultura hoje, qual será o resultado?",
+      "options": [
+        { "text": "Seremos ainda mais marginalizados. Já nos odeiam, isso apenas nos transformará em uma seita amargurada e isolada.", "value": "I" },
+        { "text": "Vai frear nosso crescimento. A cidade está aberta a nos ouvir, a agressividade fecharia as portas de diálogo.", "value": "P" },
+        { "text": "Pode causar um impacto profético excelente. Sacudiria o nominalismo e faria as pessoas pensarem seriamente na fé.", "value": "V" },
+        { "text": "Seria visto como irrelevante e arrogante, soando apenas como ruído de um grupo que não aceita que perdeu privilégios.", "value": "O" }
+      ]
+    }
+  ],
+  "diagnostics": {
+    "models": {
+      "T": {
+        "name": "Transformacionista",
+        "desc": "Você tem um perfil neo-calvinista. Enfatiza a necessidade de integrar a fé a todas as esferas da vida, não se conformando com o dualismo sagrado/profano. Acredita no poder de uma cosmovisão bíblica robusta para engajar, redimir e transformar ativamente a arte, a academia, a economia e a política para a glória de Deus."
+      },
+      "R": {
+        "name": "Modelo da Relevância",
+        "desc": "Seu perfil é voltado para o engajamento compassivo. Você é otimista e acredita que o Espírito de Deus atua no mundo secular. Foca intensamente em traduzir o cristianismo para a mentalidade contemporânea, promover o bem comum e lutar por justiça social, muitas vezes aliado a instituições não cristãs."
+      },
+      "C": {
+        "name": "Modelo Contracultural",
+        "desc": "Seu perfil tem viés neo-anabatista. Você prioriza a igreja como uma 'sociedade humana alternativa'. É profundamente cético e crítico em relação ao poder, ao Estado e ao consumismo secular, enfatizando a pureza, o pacifismo, a comunidade radical de amor e o contraste ético visível com as paixões do mundo."
+      },
+      "D": {
+        "name": "Dois Reinos",
+        "desc": "Você tem uma inclinação luterana/reformada confessional. Mantém uma distinção nítida entre o Reino de Deus (operado pela Palavra e Sacramentos na igreja) e o reino comum (operado pela lei natural). Você defende que o cristão atue de forma secular, técnica e excelente sem o peso de ter que 'cristianizar' as instituições."
+      }
+    },
+    "seasons": {
+      "I": {
+        "name": "Inverno (Hostilidade Pós-Cristã)",
+        "desc": "Sua cultura local é amplamente secularizada, hostil e altamente resistente à ortodoxia cristã. A igreja foi empurrada para fora do centro de influência. O solo evangelístico é 'congelado', exigindo abordagens altamente pacientes."
+      },
+      "P": {
+        "name": "Primavera (Dinamismo Pré-Cristão)",
+        "desc": "Embora a cultura dominante não seja cristã e possa apresentar dura oposição, a igreja está experimentando crescimento, dinamismo e penetração. O cristianismo ganha força entre os jovens e pagãos exatamente por oferecer uma narrativa totalmente diferente do caos ao redor."
+      },
+      "V": {
+        "name": "Verão (Cristandade e Igreja Aliada)",
+        "desc": "Você vive em um raro oásis cultural. A igreja desfruta de grande aceitação e respeito institucional na sua região. A moralidade da cidade ainda é influenciada pelos valores judaico-cristãos e o nominalismo (cristãos que são apenas de nome) é o maior desafio pastoral."
+      },
+      "O": {
+        "name": "Outono (Marginalização Lenta)",
+        "desc": "Sua cidade está transicionando. Os valores cristãos outrora inquestionáveis estão enfraquecendo e a igreja está sendo empurrada para as margens da irrelevância. As pessoas estão se tornando indiferentes à religião, exigindo que a fé prove seu valor prático."
+      }
+    },
+    "tools": {
+      "I": "A sua Estação exige fortemente as ferramentas <strong>Contraculturais</strong>. O inverno espiritual não é tempo de tentar dominar a política (triunfalismo). É tempo de recuo estratégico para discipulado denso, de nutrir uma comunidade alternativa vibrante e pura, que sirva de refúgio emocional e de farol na escuridão. O foco é a pureza da comunhão.",
+      "P": "A sua Estação exige as ferramentas <strong>Transformacionistas</strong>. Como a igreja está crescendo vigorosamente em uma cultura confusa, sua prioridade é equipar essa multidão de convertidos com uma cosmovisão bíblica rigorosa. Ao adentrarem suas vocações, eles poderão influenciar e mudar as instituições (educação, artes, leis) organicamente de baixo para cima.",
+      "V": "A sua Estação pede a sabedoria madura do modelo dos <strong>Dois Reinos</strong>. Como a sociedade já respeita seus valores, não é necessário criar guetos cristãos ('bolhas'). Os cristãos devem trabalhar com excelência no 'reino comum' promovendo o bem, enquanto a igreja institucional deve focar no que apenas ela pode fazer: pregar o arrependimento para salvar os cristãos nominais.",
+      "O": "A sua Estação exige a postura do modelo da <strong>Relevância</strong>. Com a fé sendo tratada com indiferença ou como intolerância, a igreja precisa provar novamente que é indispensável. A resposta é engajar-se sacrificialmente nas dores da cidade (projetos sociais, combate à pobreza urbana) e usar uma 'apologética da ação' para reabrir os ouvidos da cultura."
+    },
+    "risks": {
+      "T": "O seu Ponto Cego crítico é o <strong>Triunfalismo e a Politização excessiva</strong>. Na ânsia de mudar o mundo, a igreja pode depositar confiança demasiada no poder governamental ou intelectual. Isso frequentemente gera arrogância, fardo emocional sobre os fiéis e, quando a cultura reage, produz amargura e polarização no estilo 'guerra cultural'.",
+      "R": "O seu Ponto Cego crítico é o <strong>Sincretismo e o Enfraquecimento Doutrinário</strong>. O desejo ansioso de ser aceito e ouvido pela cultura pode fazer com que a igreja silencie ou distorça as doutrinas mais ofensivas da cruz (como a exclusividade de Cristo e o inferno). A igreja corre o risco de se dissolver em uma ONG filantrópica secular.",
+      "C": "O seu Ponto Cego crítico é o <strong>Isolacionismo e a Síndrome de Gueto</strong>. Fugir constantemente do 'mundo mau' e rejeitar o poder cria uma subcultura sectária alienada. Isso faz com que a igreja negligencie o mandato cultural de cultivar e administrar a criação, abandonando as artes e os governos para a destruição secular.",
+      "D": "O seu Ponto Cego crítico é o <strong>Quietismo e a Indiferença Social</strong>. A separação excessiva entre vida espiritual e secular pode criar cristãos que operam seus negócios e política sob pressupostos puramente pagãos. A igreja pode ficar calada e omissa diante de graves injustiças sociais, alegando que o evangelho é estritamente sobre a alma."
+    },
+    "center": {
+      "T": "Para alcançar uma fé 'Centrada', ajuste sua bússola:<br><br>1. <strong>Dois Reinos:</strong> Pratique a humildade; reconheça a maravilhosa graça comum fora da igreja e pare de tentar 'cristianizar' o que já é bom por natureza.<br>2. <strong>Contracultural:</strong> Diminua o foco no sucesso político e entenda que o maior sinal do Reino não é um governo forte, mas o amor contracultural das congregações locais.",
+      "R": "Para alcançar uma fé 'Centrada', ajuste sua bússola:<br><br>1. <strong>Contracultural:</strong> Tenha coragem de ser taxado de 'estranho'. O diálogo tem limites; a fidelidade ao evangelho exige ofender as sensibilidades morais do mundo em certas áreas cruciais.<br>2. <strong>Transformacionista:</strong> Pare de focar apenas nas emoções. Discipule a mente dos seus membros com uma cosmovisão densa, ou a mídia os discipulará no seu lugar.",
+      "C": "Para alcançar uma fé 'Centrada', ajuste sua bússola:<br><br>1. <strong>Dois Reinos:</strong> Aprenda a celebrar a criação divina, a arte e as ciências. O mundo inteiro não é 100% 'império demoníaco', Deus preserva coisas boas nele.<br>2. <strong>Relevância:</strong> Saia da defensiva e desenvolva empatia e engajamento. Demonstre proatividade em solucionar os problemas da sua cidade ao lado de seus vizinhos não cristãos.",
+      "D": "Para alcançar uma fé 'Centrada', ajuste sua bússola:<br><br>1. <strong>Transformacionista:</strong> Desconstrua o mito da neutralidade. Toda teoria acadêmica ou prática de mercado parte de uma cosmovisão. Ensine seus fiéis a identificarem a idolatria estrutural no seu campo de trabalho.<br>2. <strong>Relevância:</strong> Recupere a voz profética da igreja contra a injustiça local como um reflexo do caráter de Deus."
+    }
+  }
+}
