@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Igreja Centrada - Diagnóstico Avançado - Rodrigo Niskier</title>
+    <title>Igreja Centrada - Diagnóstico Avançado</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -30,17 +30,35 @@
         
         <section id="screen-intro" class="text-center py-12 fade-in">
             <h2 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight">Diagnóstico Teológico e Cultural</h2>
-            <p class="text-lg text-slate-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p class="text-lg text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
                 Descubra qual é o seu centro gravitacional teológico e como sua igreja deve se posicionar na atual estação da sua cidade, baseado em Tim Keller. (Desenvolvido por Rodrigo Niskier)
             </p>
+
+            <div class="max-w-3xl mx-auto mb-10 p-6 bg-amber-50 border-l-4 border-amber-400 rounded-r-2xl text-left shadow-sm">
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <svg class="h-6 w-6 text-amber-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <h3 class="text-sm font-bold text-amber-800 uppercase tracking-wider">Aviso Importante</h3>
+                        <div class="mt-2 text-sm text-amber-700 leading-relaxed">
+                            <p>Esta ferramenta utiliza <strong>exclusivamente conceitos teóricos do livro "Igreja Centrada" de Tim Keller</strong>. Este é um recurso de apoio e não substitui uma análise pastoral presencial. Um diagnóstico profundo e realista deve considerar a sensibilidade dos líderes locais e variáveis contextuais específicas que este algoritmo não captura.</p>
+                            <p class="mt-2 font-bold">A tomada de decisão estratégica é de inteira responsabilidade do utilizador e da liderança da igreja.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="grid md:grid-cols-2 gap-6 text-left mb-12 max-w-3xl mx-auto">
                 <div class="p-6 border rounded-2xl bg-white shadow-sm hover:shadow-md transition">
                     <h3 class="font-bold text-indigo-700 mb-2 text-lg">1. Modelos (10 questões)</h3>
-                    <p class="text-sm text-slate-500">Transformacionista, Relevância, Contracultural ou Dois Reinos. Identifique sua proporção exata em cada um.</p>
+                    <p class="text-sm text-slate-500">Transformacionista, Relevância, Contracultural ou Dois Reinos. Identifique a sua proporção exata em cada um.</p>
                 </div>
                 <div class="p-6 border rounded-2xl bg-white shadow-sm hover:shadow-md transition">
                     <h3 class="font-bold text-orange-700 mb-2 text-lg">2. Estações (10 questões)</h3>
-                    <p class="text-sm text-slate-500">Sua cidade está no Inverno, Primavera, Verão ou Outono? Entenda o campo missionário.</p>
+                    <p class="text-sm text-slate-500">A sua cidade está no Inverno, Primavera, Verão ou Outono? Entenda o campo missionário.</p>
                 </div>
             </div>
             <button onclick="app.init()" class="bg-indigo-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-indigo-700 transition shadow-xl shadow-indigo-100">
@@ -54,7 +72,7 @@
                     <span id="question-category" class="text-xs font-bold uppercase tracking-widest text-indigo-500 block">Categoria</span>
                     <span id="question-counter" class="text-xs font-bold text-slate-400">0/20</span>
                 </div>
-                <h3 id="question-text" class="text-2xl font-bold mb-8 leading-snug text-slate-800">Carregando...</h3>
+                <h3 id="question-text" class="text-2xl font-bold mb-8 leading-snug text-slate-800">A carregar...</h3>
                 <div id="options-container" class="space-y-4">
                     </div>
             </div>
@@ -62,7 +80,7 @@
 
         <section id="screen-results" class="hidden space-y-10 fade-in">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-black text-slate-900 tracking-tight">Sua Bússola Teológica</h2>
+                <h2 class="text-3xl font-black text-slate-900 tracking-tight">A Sua Bússola Teológica</h2>
                 <p class="text-slate-500">Resultados baseados nas 20 nuances analisadas</p>
             </div>
 
@@ -92,7 +110,7 @@
                 <div class="bg-indigo-900 text-white p-8 md:p-12 rounded-3xl shadow-2xl">
                     <h3 class="text-2xl font-bold mb-4 flex items-center">
                         <svg class="w-6 h-6 mr-3 text-indigo-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
-                        Seu Perfil Principal
+                        O Seu Perfil Principal
                     </h3>
                     <p id="diag-model-text" class="text-indigo-100 leading-relaxed mb-4"></p>
                     <p id="diag-season-text" class="text-indigo-100 leading-relaxed"></p>
@@ -112,6 +130,13 @@
                         <p id="prog-center-detail" class="text-slate-700 text-sm leading-relaxed"></p>
                     </div>
                 </div>
+
+                <div class="mt-12 p-6 bg-slate-50 border border-slate-200 rounded-3xl text-center max-w-3xl mx-auto">
+                    <p class="text-xs text-slate-500 leading-relaxed uppercase tracking-widest font-bold mb-2">Nota de Orientação</p>
+                    <p class="text-sm text-slate-600 italic">
+                        Os resultados acima são sugestões baseadas num modelo teórico. Utilize-os para fomentar o diálogo entre a sua equipa de liderança, submetendo estas perceções à oração, à sensibilidade pastoral e ao conhecimento prático do campo missionário local.
+                    </p>
+                </div>
             </div>
 
             <div class="text-center pt-10">
@@ -130,7 +155,6 @@
             
             async init() {
                 try {
-                    // Carrega o JSON com as 20 perguntas
                     const response = await fetch('data.json');
                     if (!response.ok) throw new Error("Erro de rede ao carregar data.json");
                     this.data = await response.json();
@@ -141,7 +165,7 @@
                     this.renderQuestion();
                 } catch (error) {
                     console.error("Erro:", error);
-                    alert("Erro ao carregar o arquivo data.json. Tem certeza que ele está na mesma pasta e que você está acessando via um servidor local (ex: Live Server)?");
+                    alert("Erro ao carregar o ficheiro data.json. Tem a certeza que ele está na mesma pasta e que está a aceder via um servidor local (ex: Live Server)?");
                 }
             },
 
@@ -168,7 +192,6 @@
                 const container = document.getElementById('options-container');
                 container.innerHTML = '';
 
-                // Randomizar as opções para não viciar a resposta baseada na posição (ABCD)
                 const shuffledOptions = [...q.options].sort(() => Math.random() - 0.5);
 
                 shuffledOptions.forEach(opt => {
@@ -196,7 +219,6 @@
                 document.getElementById('progress-bar-container').classList.add('hidden');
                 document.getElementById('screen-results').classList.remove('hidden');
                 
-                // Cálculo de percentuais
                 const totalM = this.data.models.length;
                 const totalS = this.data.seasons.length;
 
@@ -214,7 +236,6 @@
                     O: Math.round((this.answers.seasons.O / totalS) * 100)
                 };
 
-                // Identifica os predominantes
                 const domModel = Object.keys(percModels).reduce((a, b) => percModels[a] > percModels[b] ? a : b);
                 const domSeason = Object.keys(percSeasons).reduce((a, b) => percSeasons[a] > percSeasons[b] ? a : b);
 
@@ -230,7 +251,6 @@
                 const sNames = { 'I': 'Inverno', 'P': 'Primavera', 'V': 'Verão', 'O': 'Outono' };
                 const sColors = { 'I': 'bg-slate-500', 'P': 'bg-green-500', 'V': 'bg-yellow-500', 'O': 'bg-orange-500' };
 
-                // Ordenar para mostrar do maior para o menor
                 const sortedModels = Object.entries(pModels).sort((a, b) => b[1] - a[1]);
                 const sortedSeasons = Object.entries(pSeasons).sort((a, b) => b[1] - a[1]);
 
@@ -260,7 +280,6 @@
             },
 
             generateCharts(percModels, percSeasons) {
-                // Gráfico Radar com %
                 new Chart(document.getElementById('modelChart'), {
                     type: 'radar',
                     data: {
@@ -277,7 +296,6 @@
                     options: { scales: { r: { beginAtZero: true, max: 100, ticks: { stepSize: 25 } } } }
                 });
 
-                // Gráfico Barra com %
                 new Chart(document.getElementById('seasonChart'), {
                     type: 'bar',
                     data: {
@@ -296,11 +314,9 @@
             populatePrognosis(domModel, domSeason, percModels) {
                 const diag = this.data.diagnostics;
                 
-                // Textos principais
                 document.getElementById('diag-model-text').innerHTML = `<strong>O seu modelo primário é o ${diag.models[domModel].name} (${percModels[domModel]}%).</strong> ${diag.models[domModel].desc}`;
                 document.getElementById('diag-season-text').innerHTML = `<strong>A sua cidade vive a estação do ${diag.seasons[domSeason].name}.</strong> ${diag.seasons[domSeason].desc}`;
 
-                // Caixas de detalhamento
                 document.getElementById('prog-season-detail').innerHTML = diag.tools[domSeason];
                 document.getElementById('prog-risk-detail').innerHTML = diag.risks[domModel];
                 document.getElementById('prog-center-detail').innerHTML = diag.center[domModel];
